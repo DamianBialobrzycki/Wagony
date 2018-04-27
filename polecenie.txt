@@ -1,0 +1,32 @@
+Na bocznym torze stoi sk³ad wagonów, który trzeba przygotowaæ do podró¿y. Przygotowanie polega na uporz¹dkowaniu wagonów w kolejnoœci rosn¹cej na torze prowadz¹cym do peronu. Ka¿dy wagon posiada numer bêd¹cy liczb¹ natrualn¹ z zakresu 1...n, gdzie n to liczba wszystkich wagonów. Do dyspozycji mamy jedn¹, œlepo zakoñczon¹ bocznicê. Skomplikowany uk³ad zwrotnic powoduje, ¿e mo¿emy wykonywaæ tylko 3 ruchy:
+
+przemieszczenie wagonu z toru bocznego na tor prowadz¹cy do peronu
+przemieszczenie wagonu z toru bocznego na bocznicê
+przemieszczenie wagonu z bocznicy na tor prowadz¹cy do peronu
+Zanim kolejarze zabior¹ siê do pracy, chcieliby wiedzieæ, czy maj¹ po co zaczynaæ.
+
+Napisz program sprawdzaj¹cy, czy dla danego ci¹gu wagonów, da siê je uporz¹dkowaæ w kolejnoœci rosn¹cej korzystaj¹c z jednej bocznicy. 
+Uwaga: W zadaniu nale¿y zaimplementowaæ stos korzystaj¹c z listy.
+
+
+
+Wejœcie
+Pierwsz¹ wprowadzon¹ liczb¹ jest n - liczba wagonów do uporz¹dkowania. Nastêpnie podanych bêdzie n liczb - s¹ no numery kolejnych wagonów.
+
+Wyjœcie
+Program powinien wypisaæ TAK je¿eli mo¿liwe jest uporz¹dkowanie wagonów, w przeciwnym razie powinien wypisaæ NIE.
+
+Przyk³ad
+Wejœcie:
+3
+1 3 2
+
+Wyjœcie:
+TAK
+
+Wejœcie:
+4
+4 2 3 1
+
+Wyjœcie:
+NIE
